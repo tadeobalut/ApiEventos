@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+display: flex;
+justify-content: center;
+background-color:darkslategray;
+margin-bottom: 2rem;
+}
+
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.event-card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.event-card h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.event-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.event-card a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   background-color:darkslategray;
+}
+
+footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background-color: #007bff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
