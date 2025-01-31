@@ -5,11 +5,11 @@ body {
     padding: 0;
 }
 
-header{
-display: flex;
-justify-content: center;
-background-color:darkslategray;
-margin-bottom: 2rem;
+header {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    margin-bottom: 2rem;
 }
 
 .events-container {
@@ -73,18 +73,17 @@ margin-bottom: 2rem;
 
 }
 
-footer{
-   display: flex;
-   justify-content: center;
-   background-color:darkslategray;
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
 }
 
-footer p{
+footer p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-button{
-    background-color: #007bff;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-left: 5px;
+
+header a {
+    text-decoration: none;
+    color: black;
 }
